@@ -1,8 +1,9 @@
 {
-  "name": "impacta-cursos-api",
+  "name": "projeto-cursos-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private":"true",
+  "description": "Api de dados do projeto cursos impacta",
+  "main": "src/loader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon"
