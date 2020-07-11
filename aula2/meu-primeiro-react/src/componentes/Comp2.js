@@ -5,6 +5,7 @@ export const Componente2 = props => {
 
     const [label] = useState('Segundo Componente');
     const [cursos, setCursos] = useState(['React', 'Native', 'Java', 'Php']);
+    const [input, setInput] = useState('Texto Inicial');
 
     useEffect(() => {
         console.log('chamou o effect');
@@ -26,6 +27,11 @@ export const Componente2 = props => {
             <ul>
                 {cursos.map((i, index) => <ListaItem key={index} curso={i} />)}
             </ul>
+            <br/>
+            <input type="text" value={input} onChange={e => setInput(e.target.value)} />
+            <button type="reset" onClick={e => setInput('')}>
+                Limpar
+            </button>
         </div>
     )
 }
