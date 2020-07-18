@@ -126,9 +126,9 @@ export class CursoCRUD extends React.Component {
                 </div>
                 <div className="col-md-6">
                     <CursoListagem 
-                        cursos={cursos} 
                         excluir={this.excluirCurso}
-                        editar={this.preencherCurso}/>
+                        editar={this.preencherCurso}
+                        isAdmin={true}/>
                 </div>
             </div>
         )
