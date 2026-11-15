@@ -31,5 +31,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "node-forge": "1.4.1"
+  },
+  "resolutions": {
+    "node-forge": "1.4.1"
   }
 }
